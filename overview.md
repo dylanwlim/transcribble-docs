@@ -6,14 +6,16 @@ Transcribble is a local-first voice workspace. It helps users capture or import 
 
 ## Who it is for
 
-- People who want transcript work to stay local to their device where possible.
-- Users reviewing meetings, voice notes, interviews, or imported media.
-- Maintainers evaluating a privacy-sensitive transcription product at a public product level.
+- People who need a focused workspace for recordings and transcript review.
+- Users who prefer local-first handling for media-heavy transcription work.
+- Reviewers evaluating a voice workspace and export flow.
 
-## Product status
+## Access
 
-Active private product repository with a public app. The public docs describe behavior without exposing source or helper internals.
+- Website: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
+- Discussions: [https://github.com/dylanwlim/transcribble-docs/discussions](https://github.com/dylanwlim/transcribble-docs/discussions)
+- Welcome thread: [https://github.com/dylanwlim/transcribble-docs/discussions/1](https://github.com/dylanwlim/transcribble-docs/discussions/1)
 
-## Public documentation boundary
+## Guide freshness
 
-These docs describe the product experience and high-level technology choices. They intentionally avoid private source structure, deployment internals, provider secrets, database schemas, API implementation, auth/session internals, and client-sensitive records.
+These guides refresh after product documentation updates and are checked on a daily sync. Product behavior can move faster than written guides, so use Discussions to flag anything that looks out of date.

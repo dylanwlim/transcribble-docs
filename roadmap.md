@@ -2,15 +2,15 @@
 
 ## Current direction
 
-Active private product repository with a public app. The public docs describe behavior without exposing source or helper internals.
+Transcribble is active and the guides track user-visible behavior, access paths, and product status.
 
 ## Near-term priorities
 
-- Keep the core workspace calm, local-first, and focused on transcript review.
-- Continue improving first-run setup, mobile handoff, storage clarity, and recovery states.
-- Keep support reports and diagnostics privacy-safe by default.
-- Avoid default dependence on hosted transcription, paid storage, or source-media upload paths.
+- Keep recording, import, transcript review, and export flows reliable.
+- Improve storage clarity and recovery states for large media.
+- Continue refining Desktop Helper guidance for long recordings.
+- Keep mobile and desktop handoff behavior explicit.
 
-## Public roadmap rule
+## Feedback
 
-Roadmap items here are product-facing and may change. Private implementation plans, provider setup, infrastructure work, internal prompts, customer-specific commitments, and unreleased proprietary logic stay in the private repository.
+Use [Discussions](https://github.com/dylanwlim/transcribble-docs/discussions) to ask questions, report stale guide steps, or suggest roadmap clarifications.

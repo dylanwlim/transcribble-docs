@@ -4,7 +4,13 @@ Local-first voice workspace for recording, importing, transcribing, reviewing, a
 
 Transcribble is a local-first voice workspace. It helps users capture or import audio and video, generate transcripts through browser-local processing or a same-computer helper, review and edit the result, and export useful transcript files.
 
-## Documentation
+## Start here
+
+- Website: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
+- Discussions: [ask questions and suggest guide improvements](https://github.com/dylanwlim/transcribble-docs/discussions)
+- Welcome thread: [https://github.com/dylanwlim/transcribble-docs/discussions/1](https://github.com/dylanwlim/transcribble-docs/discussions/1)
+
+## Guides
 
 - [Overview](overview.md)
 - [Product guide](product-guide.md)
@@ -13,7 +19,8 @@ Transcribble is a local-first voice workspace. It helps users capture or import 
 - [Roadmap](roadmap.md)
 - [Changelog](changelog.md)
 - [Security and privacy](security-and-privacy.md)
+- [Access and updates](setup.md)
 
-## Public documentation boundary
+## Updates
 
-This repository contains product-facing documentation only. It does not mirror source code, private implementation details, deployment configuration, secrets, API internals, database schemas, auth/session internals, private prompts, client-sensitive details, or proprietary implementation logic.
+These guides refresh after product documentation updates and are checked on a daily sync. If something looks stale, open a Discussion with the page name and the step that needs attention.

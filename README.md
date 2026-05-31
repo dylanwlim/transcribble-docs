@@ -47,4 +47,4 @@ The public marketing homepage and app launch path are live, with visible section
 
 ## Updates
 
-The public docs publish automatically from the source guide files. On every main-branch update and daily sync, the workflow refreshes the homepage screenshot, validates the public allowlist, checks guide text for credential-like patterns, and mirrors the result into this public docs repository.
+Public docs updates are reviewed from the source guide files before they are mirrored here. Each refresh keeps the homepage screenshot, approved guide set, and public changelog aligned with the current user-visible surface.

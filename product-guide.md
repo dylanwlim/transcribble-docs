@@ -1,23 +1,24 @@
 # Product Guide
 
-## User experience
+Use this page as the practical user manual for the public surface that is available now.
 
-- Start from a Voice Memos-like workspace with Record audio and Import audio.
-- Review an import preflight before media is saved or transcription starts.
-- Open a focused player and transcript workspace with edit, search, bookmark, cleanup, and export tools.
-- Use setup checks and helper guidance when a recording needs local desktop processing.
+## Main Flow
 
-## Main workflows
+1. Open the homepage and choose Open workspace.
+2. Capture or import the source material for transcription work.
+3. Review the transcript and export the format that matches the next use.
 
-- Record: capture microphone audio, save it locally, then transcribe after stop.
-- Import: drag or choose a media file, review local storage fit and route, then start transcription.
-- Review: play, search, edit, mark, clean up, and inspect recovery state when needed.
-- Export: download transcript text, markdown, subtitle files, or a local workspace backup.
-- Mobile handoff: save useful work on mobile and finish on desktop when desktop processing is required.
+## Current Actions
 
-## Product principles
+| Area | Current public flow |
+| --- | --- |
+| Open the workspace | Use the public Open workspace action from the homepage. |
+| Record or bring audio into the flow | Use the workspace direction for recording and source capture. |
+| Review transcript material | Use the transcript workspace model to read, organize, and shape captured material. |
+| Export useful files | Use the public export options for TXT, Markdown, SRT, and VTT when available in the workspace. |
 
-- Keep the interface direct, explicit, and honest about what the product can prove.
-- Show unavailable or limited states clearly instead of hiding important constraints.
-- Keep guide claims tied to behavior that exists in the product.
-- Use Discussions for access questions, confusing steps, and guide feedback.
+## Notes For Use
+
+- Workspace first: The public flow routes users into one workspace rather than scattering recording, review, and export across unrelated pages.
+- Local-first posture: The public copy emphasizes local control for recordings and transcript work.
+- Export model: The visible export formats are plain transcript text, Markdown, SRT captions, and VTT captions.

@@ -1,21 +1,19 @@
 # How It Works
 
-## Product structure
+Transcribble is documented here from the public user's point of view.
 
-- A single-route app centers on the recording library and selected transcript workspace.
-- Local browser storage keeps projects and media on the user's browser or device.
-- Browser transcription and Desktop Helper are presented as user-level processing routes.
-- Settings separates general preferences, shortcuts, recording behavior, storage, and advanced support tools.
+## Workspace first
 
-## Technology
+The public flow routes users into one workspace rather than scattering recording, review, and export across unrelated pages.
 
-- Next.js App Router, React, TypeScript, and Tailwind CSS.
-- Browser media APIs, local browser storage, and web worker processing.
-- Local transcription technology using browser-capable model/runtime assets at a product level.
-- A same-computer Desktop Helper path for longer or memory-risk media.
+## Local-first posture
 
-## Update flow
+The public copy emphasizes local control for recordings and transcript work.
 
-- Product documentation changes are published to this guide repository automatically.
-- A daily sync checks for guide updates after product work lands.
-- Manual updates can also be published when a guide needs an immediate correction.
+## Export model
+
+The visible export formats are plain transcript text, Markdown, SRT captions, and VTT captions.
+
+## Publishing Model
+
+The public guide files live under `docs-public/` in the source repository. The publishing workflow captures the current homepage screenshot, validates the public docs allowlist, and mirrors the result into `dylanwlim/transcribble-docs`.

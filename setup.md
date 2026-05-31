@@ -1,21 +1,23 @@
-# Access and Updates
+# Access And Updates
 
-## Website
+## Public Entry Points
 
-Open [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com) for the current product or guide entry point.
+- Public site: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
+- Public discussions: [https://github.com/dylanwlim/transcribble-docs/discussions](https://github.com/dylanwlim/transcribble-docs/discussions)
 
-## Discussions
+## Current Use
 
-Use [Discussions](https://github.com/dylanwlim/transcribble-docs/discussions) for:
+1. Open the homepage and choose Open workspace.
+2. Capture or import the source material for transcription work.
+3. Review the transcript and export the format that matches the next use.
 
-- access questions
-- product workflow questions
-- guide corrections
-- stale links or outdated screenshots
-- suggestions for clearer examples
+## How These Docs Stay Current
 
-Start with the welcome thread: [https://github.com/dylanwlim/transcribble-docs/discussions/1](https://github.com/dylanwlim/transcribble-docs/discussions/1).
+- Source guide files live under `docs-public/`.
+- The publish workflow runs after main-branch updates, by manual dispatch, and once per day.
+- The workflow captures a fresh homepage screenshot before publishing.
+- The workflow publishes only the approved guide files and homepage screenshot asset.
 
-## Update cadence
+## Feedback
 
-These guides are checked daily and refresh after product documentation updates. If product behavior changes before the guide catches up, open a Discussion with the page name and the expected correction.
+Open a Discussion with the guide page name, the unclear section, and the public behavior you expected the guide to describe.

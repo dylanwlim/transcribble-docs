@@ -1,16 +1,13 @@
 # Roadmap
 
-## Current direction
+This roadmap covers public-facing guide and user-surface work only.
 
-Transcribble is active and the guides track user-visible behavior, access paths, and product status.
+## Current Priorities
 
-## Near-term priorities
+- Keep the public guide aligned with the visible workspace entry and export formats.
+- Update docs when recording, helper, import, or export behavior changes in the public app.
+- Keep the homepage screenshot refreshed automatically through the docs workflow.
 
-- Keep recording, import, transcript review, and export flows reliable.
-- Improve storage clarity and recovery states for large media.
-- Continue refining Desktop Helper guidance for long recordings.
-- Keep mobile and desktop handoff behavior explicit.
+## Documentation Rule
 
-## Feedback
-
-Use [Discussions](https://github.com/dylanwlim/transcribble-docs/discussions) to ask questions, report stale guide steps, or suggest roadmap clarifications.
+When a user-visible public flow changes, update the matching guide page and changelog entry in the same source-repo pass. The daily workflow will still refresh the homepage screenshot, but guide text should describe only behavior that is actually available to public users.

@@ -1,26 +1,50 @@
 # Transcribble
 
-Local-first voice workspace for recording, importing, transcribing, reviewing, and exporting transcripts.
+<p align="center">
+  <a href="https://transcribble.dylanwlim.com"><img src="assets/homepage.png" alt="Transcribble homepage screenshot" width="900"></a>
+</p>
 
-Transcribble is a local-first voice workspace. It helps users capture or import audio and video, generate transcripts through browser-local processing or a same-computer helper, review and edit the result, and export useful transcript files.
+<p align="center"><strong>Local-first voice workspace for recording, transcription review, organization, and export.</strong></p>
 
-## Start here
+<p align="center">
+  <a href="https://transcribble.dylanwlim.com">Open the public site</a> ·
+  <a href="product-guide.md">Product guide</a> ·
+  <a href="changelog.md">Changelog</a> ·
+  <a href="https://github.com/dylanwlim/transcribble-docs/discussions">Discussions</a>
+</p>
 
-- Website: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
-- Discussions: [ask questions and suggest guide improvements](https://github.com/dylanwlim/transcribble-docs/discussions)
-- Welcome thread: [https://github.com/dylanwlim/transcribble-docs/discussions/1](https://github.com/dylanwlim/transcribble-docs/discussions/1)
+Transcribble presents a calm recording and transcript workspace for lectures, interviews, meetings, and ideas. The public site explains the workflow and opens the workspace from the homepage.
 
-## Guides
+## What You Can Do Today
+
+| Area | Current public flow |
+| --- | --- |
+| Open the workspace | Use the public Open workspace action from the homepage. |
+| Record or bring audio into the flow | Use the workspace direction for recording and source capture. |
+| Review transcript material | Use the transcript workspace model to read, organize, and shape captured material. |
+| Export useful files | Use the public export options for TXT, Markdown, SRT, and VTT when available in the workspace. |
+
+## Start Here
+
+1. Open the homepage and choose Open workspace.
+2. Capture or import the source material for transcription work.
+3. Review the transcript and export the format that matches the next use.
+
+## Guide Index
 
 - [Overview](overview.md)
 - [Product guide](product-guide.md)
 - [How it works](how-it-works.md)
-- [Build and run](build-and-run.md)
+- [Access guide](build-and-run.md)
 - [Roadmap](roadmap.md)
 - [Changelog](changelog.md)
 - [Security and privacy](security-and-privacy.md)
 - [Access and updates](setup.md)
 
+## Current Status
+
+The public marketing homepage and Open workspace path are live, with visible sections for recording, transcription, organization, privacy, and export options.
+
 ## Updates
 
-These guides refresh after product documentation updates and are checked on a daily sync. If something looks stale, open a Discussion with the page name and the step that needs attention.
+The public docs publish automatically from the source guide files. On every main-branch update and daily sync, the workflow refreshes the homepage screenshot, validates the public allowlist, checks guide text for credential-like patterns, and mirrors the result into this public docs repository.

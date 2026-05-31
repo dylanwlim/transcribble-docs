@@ -1,20 +1,20 @@
-# Build and Run
+# Access Guide
 
-## Normal access
+## Open The Public Surface
 
-Most readers should start with the website: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com). Use the guides in this repository for workflow orientation, access notes, and release status.
+- Public site: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
+- Discussions: [https://github.com/dylanwlim/transcribble-docs/discussions](https://github.com/dylanwlim/transcribble-docs/discussions)
 
-## Local development orientation
+## Use The Current Flow
 
-- Use Node.js 24.x and npm.
-- Install dependencies with npm install.
-- Run npm run dev for local development.
-- Run npm run build, lint, typecheck, and focused browser checks before release work.
+1. Open the homepage and choose Open workspace.
+2. Capture or import the source material for transcription work.
+3. Review the transcript and export the format that matches the next use.
 
-## Validation
+## Current Availability
 
-Before release work, run the validation commands that match the changed surface. For guide-only updates, verify links, headings, and product wording before publishing.
+The public marketing homepage and Open workspace path are live, with visible sections for recording, transcription, organization, privacy, and export options.
 
-## Documentation updates
+## Automated Public Docs
 
-Guides are published automatically after documentation changes and checked once per day. Use [Discussions](https://github.com/dylanwlim/transcribble-docs/discussions) for stale pages, access questions, or suggested clarifications.
+The publish workflow runs on main-branch updates, manual dispatch, and a daily schedule. It refreshes `assets/homepage.png`, validates the public guide set, and publishes the files to the public docs repository.

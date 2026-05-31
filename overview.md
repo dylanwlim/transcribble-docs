@@ -1,21 +1,22 @@
 # Overview
 
-## What Transcribble does
+Transcribble presents a calm recording and transcript workspace for lectures, interviews, meetings, and ideas. The public site explains the workflow and opens the workspace from the homepage.
 
-Transcribble is a local-first voice workspace. It helps users capture or import audio and video, generate transcripts through browser-local processing or a same-computer helper, review and edit the result, and export useful transcript files.
+## Public Surface
 
-## Who it is for
+The public marketing homepage and Open workspace path are live, with visible sections for recording, transcription, organization, privacy, and export options.
 
-- People who need a focused workspace for recordings and transcript review.
-- Users who prefer local-first handling for media-heavy transcription work.
-- Reviewers evaluating a voice workspace and export flow.
+## Current Public Actions
 
-## Access
+| Area | Current public flow |
+| --- | --- |
+| Open the workspace | Use the public Open workspace action from the homepage. |
+| Record or bring audio into the flow | Use the workspace direction for recording and source capture. |
+| Review transcript material | Use the transcript workspace model to read, organize, and shape captured material. |
+| Export useful files | Use the public export options for TXT, Markdown, SRT, and VTT when available in the workspace. |
 
-- Website: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
-- Discussions: [https://github.com/dylanwlim/transcribble-docs/discussions](https://github.com/dylanwlim/transcribble-docs/discussions)
-- Welcome thread: [https://github.com/dylanwlim/transcribble-docs/discussions/1](https://github.com/dylanwlim/transcribble-docs/discussions/1)
+## Best First Step
 
-## Guide freshness
-
-These guides refresh after product documentation updates and are checked on a daily sync. Product behavior can move faster than written guides, so use Discussions to flag anything that looks out of date.
+1. Open the homepage and choose Open workspace.
+2. Capture or import the source material for transcription work.
+3. Review the transcript and export the format that matches the next use.

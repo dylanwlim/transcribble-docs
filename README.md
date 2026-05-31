@@ -17,18 +17,18 @@ Transcribble presents a calm recording and transcript workspace for lectures, in
 
 ## What You Can Do Today
 
-| Area | Current public flow |
-| --- | --- |
-| Open the workspace | Use the public Open workspace action from the homepage. |
-| Record or bring audio into the flow | Use the workspace direction for recording and source capture. |
-| Review transcript material | Use the transcript workspace model to read, organize, and shape captured material. |
-| Export useful files | Use the public export options for TXT, Markdown, SRT, and VTT when available in the workspace. |
+| Area                                | Current public flow                                                                |
+| ----------------------------------- | ---------------------------------------------------------------------------------- |
+| Launch the app                      | Use Launch app or Open workspace from the public homepage.                         |
+| Record or bring audio into the flow | Use the workspace direction for recording and source capture.                      |
+| Review transcript material          | Use the transcript workspace model to read, organize, and shape captured material. |
+| Export useful files                 | Use Open export flow for TXT, Markdown, SRT, and VTT transcript exports.           |
 
 ## Start Here
 
-1. Open the homepage and choose Open workspace.
+1. Open the homepage and choose Launch app or Open workspace.
 2. Capture or import the source material for transcription work.
-3. Review the transcript and export the format that matches the next use.
+3. Review the transcript and use Open export flow for the format that matches the next use.
 
 ## Guide Index
 
@@ -43,7 +43,7 @@ Transcribble presents a calm recording and transcript workspace for lectures, in
 
 ## Current Status
 
-The public marketing homepage and Open workspace path are live, with visible sections for recording, transcription, organization, privacy, and export options.
+The public marketing homepage and app launch path are live, with visible sections for what it does, how it works, privacy and security, use cases, exports, and FAQ.
 
 ## Updates
 

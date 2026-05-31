@@ -4,6 +4,7 @@
 
 - Refreshed the public docs around the current public Transcribble surface.
 - Added a current homepage screenshot to the README.
+- Updated the guide language for the current Launch app, Open workspace, and Open export flow actions.
 - Updated the publish workflow so homepage screenshots refresh on main-branch updates and the daily sync.
 - Tightened the public guide language to focus on actions users can access now.
 

@@ -4,47 +4,47 @@
   <a href="https://transcribble.dylanwlim.com"><img src="assets/homepage.png" alt="Transcribble homepage screenshot" width="900"></a>
 </p>
 
-<p align="center"><strong>Local-first voice workspace for recording, transcription review, organization, and export.</strong></p>
+![docs](https://img.shields.io/badge/documentation-public-111111?style=flat-square) ![live](https://img.shields.io/badge/live-verified-0f766e?style=flat-square) ![source](https://img.shields.io/badge/source-private-111111?style=flat-square)
 
-<p align="center">
-  <a href="https://transcribble.dylanwlim.com">Open the public site</a> ·
-  <a href="product-guide.md">Product guide</a> ·
-  <a href="changelog.md">Changelog</a> ·
-  <a href="https://github.com/dylanwlim/transcribble-docs/discussions">Discussions</a>
-</p>
+Public guide for Transcribble, a transcription, decoding, and conversion tool for files.
 
-Transcribble presents a calm recording and transcript workspace for lectures, interviews, meetings, and ideas. The public site explains the workflow and opens the workspace from the homepage.
+**Live:** [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
 
-## What You Can Do Today
+**Status:** Live public product surface.
 
-| Area                                | Current public flow                                                                |
-| ----------------------------------- | ---------------------------------------------------------------------------------- |
-| Launch the app                      | Use Launch app or Open workspace from the public homepage.                         |
-| Record or bring audio into the flow | Use the workspace direction for recording and source capture.                      |
-| Review transcript material          | Use the transcript workspace model to read, organize, and shape captured material. |
-| Export useful files                 | Use Open export flow for TXT, Markdown, SRT, and VTT transcript exports.           |
+## What It Does
 
-## Start Here
+- Documents the public Transcribble surface and core user workflow.
+- Explains capture/import, review, organization, and export concepts at a product level.
+- Keeps private implementation and user files out of public documentation.
 
-1. Open the homepage and choose Launch app or Open workspace.
-2. Capture or import the source material for transcription work.
-3. Review the transcript and use Open export flow for the format that matches the next use.
+## Who It Is For
 
-## Guide Index
+People working with audio, transcript, decoding, and file-conversion workflows.
 
-- [Overview](overview.md)
-- [Product guide](product-guide.md)
-- [How it works](how-it-works.md)
-- [Access guide](build-and-run.md)
-- [Roadmap](roadmap.md)
-- [Changelog](changelog.md)
-- [Security and privacy](security-and-privacy.md)
-- [Access and updates](setup.md)
+## Key Features
 
-## Current Status
+- File workflows
+- Transcript review
+- Export paths
+- Productivity-focused interface
 
-The public marketing homepage and app launch path are live, with visible sections for what it does, how it works, privacy and security, use cases, exports, and FAQ.
+## Public Docs
 
-## Updates
+- [Overview](docs/overview.md)
+- [Getting started](docs/getting-started.md)
+- [FAQ](docs/faq.md)
+- [Data handling](docs/data-handling.md)
+- [Changelog](CHANGELOG.md)
+- [Security](SECURITY.md)
+- [Contributing](CONTRIBUTING.md)
 
-Public docs updates are reviewed from the source guide files before they are mirrored here. Each refresh keeps the homepage screenshot, approved guide set, and public changelog aligned with the current user-visible surface.
+## Privacy And Source Code
+
+Production source code, private implementation details, secrets, internal routes, proprietary logic, and non-public data are intentionally omitted. This repository documents only the public product surface, safe usage notes, and support paths.
+
+## Contact
+
+- Website: [https://dylanwlim.com](https://dylanwlim.com)
+- GitHub: [https://github.com/dylanwlim](https://github.com/dylanwlim)
+- Email: [dylan@wlim.work](mailto:dylan@wlim.work)

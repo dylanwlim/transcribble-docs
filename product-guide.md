@@ -1,24 +1,13 @@
 # Product Guide
 
-Use this page as the practical user manual for the public surface that is available now.
+Use the current public docs:
 
-## Main Flow
+- [Overview](docs/overview.md)
+- [Getting started](docs/getting-started.md)
+- [FAQ](docs/faq.md)
+- [Data handling](docs/data-handling.md)
 
-1. Open the homepage and choose Launch app or Open workspace.
-2. Capture or import the source material for transcription work.
-3. Review the transcript and use Open export flow for the format that matches the next use.
-
-## Current Actions
-
-| Area                                | Current public flow                                                                |
-| ----------------------------------- | ---------------------------------------------------------------------------------- |
-| Launch the app                      | Use Launch app or Open workspace from the public homepage.                         |
-| Record or bring audio into the flow | Use the workspace direction for recording and source capture.                      |
-| Review transcript material          | Use the transcript workspace model to read, organize, and shape captured material. |
-| Export useful files                 | Use Open export flow for TXT, Markdown, SRT, and VTT transcript exports.           |
-
-## Notes For Use
-
-- Workspace first: The public flow routes users into one workspace rather than scattering recording, review, and export across unrelated pages.
-- Local-first posture: The public copy emphasizes local control for recordings and transcript work.
-- Export model: The visible export formats are TXT, Markdown, SRT captions, and VTT captions.
+- File workflows
+- Transcript review
+- Export paths
+- Productivity-focused interface

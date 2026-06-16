@@ -1,13 +1,13 @@
 # Roadmap
 
-This roadmap covers public-facing guide and user-surface work only.
+This public roadmap stays intentionally high level.
 
-## Current Priorities
+## Current
 
-- Keep the public guide aligned with the visible workspace entry and export formats.
-- Update docs when recording, helper, import, or export behavior changes in the public app.
-- Keep the homepage screenshot current when public docs are refreshed.
+- Keep the live product surface available at [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com).
+- Keep public docs accurate, concise, and free of private implementation details.
 
-## Documentation Rule
+## Next
 
-When a user-visible public flow changes, update the matching guide page and changelog entry in the same source-repo pass. Guide text should describe only behavior that is actually available to public users.
+- Update docs when the public product surface changes.
+- Fix broken links or stale public wording as they are found.

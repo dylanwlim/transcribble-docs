@@ -2,18 +2,12 @@
 
 Transcribble is documented here from the public user's point of view.
 
-## Workspace first
+## Public Product Model
 
-The public flow routes users into one workspace rather than scattering recording, review, and export across unrelated pages.
+- Documents the public Transcribble surface and core user workflow.
+- Explains capture/import, review, organization, and export concepts at a product level.
+- Keeps private implementation and user files out of public documentation.
 
-## Local-first posture
+## Privacy Boundary
 
-The public copy emphasizes local control for recordings and transcript work.
-
-## Export model
-
-The visible export formats are plain transcript text, Markdown, SRT captions, and VTT captions.
-
-## Publishing Model
-
-The public guide files live under `docs-public/` in the source repository. The publishing workflow captures the current homepage screenshot, validates the public docs allowlist, and mirrors the result into `dylanwlim/transcribble-docs`.
+The public docs describe visible product behavior and safe support paths only. They do not document private source code, internal systems, secrets, proprietary logic, or non-public data.

@@ -1,18 +1,19 @@
-# Access And Updates
+# Setup And Access
 
-## Public Entry Points
+## Open The Product
 
-- Public site: [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
-- Contact: [dylan@wlim.work](mailto:dylan@wlim.work)
+[https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
 
-## Current Use
+## Current Access
+
+Live transcription and file-workflow product.
+
+## Getting Started
 
 1. Open the live Transcribble site.
-2. Choose the public launch or workspace path.
-3. Use the visible workflow to bring material in, review it, and export the useful result.
+2. Choose the launch or workspace path.
+3. Bring material in, review the transcript, organize the recording, and export the useful result.
 
-## How These Docs Stay Current
+## Need Help
 
-- Public docs are reviewed before publication.
-- Screenshots should show only already-public product surfaces.
-- Updates should not include private source, private implementation details, secrets, customer data, or internal workflow notes.
+For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work). Include the page URL, the action you were trying, and your browser or device when that helps explain the issue.

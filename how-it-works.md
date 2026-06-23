@@ -1,13 +1,20 @@
 # How It Works
 
-Transcribble is documented here from the public user's point of view.
+Transcribble is easiest to understand from the live product first. This guide gives you a quick map of the current user experience.
 
-## Public Product Model
+## User Flow
 
-- Documents the public Transcribble surface and core user workflow.
-- Explains capture/import, review, organization, and export concepts at a product level.
-- Keeps private implementation and user files out of public documentation.
+1. Open the live Transcribble site.
+2. Choose the launch or workspace path.
+3. Bring material in, review the transcript, organize the recording, and export the useful result.
 
-## Privacy Boundary
+## What To Look For
 
-The public docs describe visible product behavior and safe support paths only. They do not document private source code, internal systems, secrets, proprietary logic, or non-public data.
+- Recording and import paths
+- Transcript review
+- Workspace organization
+- Export paths
+
+## Support
+
+For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work).

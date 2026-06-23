@@ -1,13 +1,13 @@
 # Roadmap
 
-This public roadmap stays intentionally high level.
+This roadmap focuses on what helps users understand and use Transcribble.
 
-## Current
+## Current Focus
 
-- Keep the live product surface available at [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com).
-- Keep public docs accurate, concise, and free of private implementation details.
+- Keep recording, import, review, and export guidance clear.
+- Keep local-first workflow notes aligned with the live app.
 
-## Next
+## Up Next
 
-- Update docs when the public product surface changes.
-- Fix broken links or stale public wording as they are found.
+- Improve setup answers for longer recordings and desktop workflows.
+- Refresh export and organization guidance as the workspace changes.

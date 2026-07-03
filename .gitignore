@@ -1,0 +1,11 @@
+
+
+# Codex/browser auth and test artifacts
+.auth/
+.codex/.auth/
+playwright/.auth/
+test-results/
+blob-report/
+playwright-report/
+.env.local
+.env.*.local

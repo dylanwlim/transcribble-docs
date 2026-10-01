@@ -1,0 +1,38 @@
+name: Clean reconciled branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/cleanup-reconciled-branches.yml
+      - .github/scripts/cleanup-reconciled-branches.sh
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cleanup-reconciled-branches
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    if: ${{ github.repository == 'dylanwlim/transcribble-docs' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: read
+    steps:
+      - name: Check out protected main
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Delete only proven merged reconciliation branches
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH_CLEANUP_WRITE: "1"
+        run: bash .github/scripts/cleanup-reconciled-branches.sh

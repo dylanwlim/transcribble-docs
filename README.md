@@ -4,32 +4,36 @@
   <a href="https://transcribble.dylanwlim.com"><img src="assets/homepage.png" alt="Transcribble homepage screenshot" width="900"></a>
 </p>
 
-A guide to Transcribble, a workspace for bringing recordings or media in, reviewing transcript text, organizing work, and exporting useful results.
+A guide to Transcribble, a DWL Account-backed local-first voice workspace for recording/importing audio and video, browser transcription, review, export, and optional private account saving.
 
 **Live site:** [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
 
-**Status:** Live transcription and file-workflow product.
+**Access:** DWL Accounts is required for the workspace. Production account saving requires explicit per-browser consent. Public Desktop Helper and YouTube/link import are disabled.
 
 ## Start Here
 
-- [Product guide](product-guide.md)
-- [How it works](how-it-works.md)
+- [Product guide and workflow](product-guide.md)
 - [Setup and access](setup.md)
 - [FAQ](faq.md)
 - [Security and privacy](security-and-privacy.md)
 - [Roadmap](roadmap.md)
-- [Changelog](changelog.md)
+- [Guide changelog](changelog.md)
 
 ## What You Can Do
 
-- Recording and import paths
-- Transcript review
-- Workspace organization
-- Export paths
+- Record or import supported audio/video
+- Review and edit browser-generated transcripts
+- Organize the account-scoped local library
+- Export transcripts, readable sources, and recording backups
+- Opt into bounded private account saving when available
 
 ## Who It Helps
 
-People working with audio, transcript review, decoding, and file-conversion workflows.
+People recording, organizing, reviewing, and exporting spoken material, with local source retention and optional account saving.
+
+## Documentation scope
+
+`product-guide.md` is the canonical product/workflow guide. `setup.md` covers access requirements; `how-it-works.md` is a compatibility pointer, not another maintained guide. The changelog records guide revisions, not automatic proof of a new deployment. Screenshots are illustrative captures and can lag interface changes.
 
 ## Get Help
 

@@ -18,11 +18,11 @@ Browser transcription is deliberately bounded by file, duration, memory, and run
 
 ## Where do I install Desktop Helper or import a YouTube link?
 
-Those features are disabled in the public release. Desktop Helper is source-development-only until its distribution and lifecycle requirements are satisfied. Import a local media file you are entitled to process instead.
+Those features are disabled in the public release. Import a local media file you are entitled to process instead.
 
 ## Is live dictation the final local transcript?
 
-No. Browser live dictation is provisional and follows the browser's speech-recognition behavior. The final supported browser-transcription worker is a separate path; live dictation is not a guarantee of fully local processing.
+No. Live dictation is provisional and may use online speech recognition provided by your browser. Review the finished transcript before relying on it.
 
 ## Can a transcript-only export recover missing audio?
 

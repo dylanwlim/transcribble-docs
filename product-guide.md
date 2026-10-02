@@ -12,7 +12,7 @@ Transcribble is a DWL Account-backed, local-first voice workspace for recording 
 
 ## Local storage and account saving
 
-Recordings and folders live in an account-scoped browser library using IndexedDB/OPFS. Local-first does not mean a browser library is immune to storage clearing, quota limits, device loss, or unavailable media.
+Recordings and folders are saved in this browser for your account. Clearing browser data, running out of space, or losing the device can make local recordings unavailable.
 
 Production account saving is an optional, private cross-device copy. It requires explicit upload consent in each browser. Sign-in alone is not permission to upload recordings. Use the visible saving status, pause, and refresh controls; pending changes, a paused service, or a failed upload must not be described as fully saved to the account.
 
@@ -22,14 +22,14 @@ The documented free limits are **250 MiB per account**, **50 MiB per source file
 
 | Capability | Public product boundary |
 | --- | --- |
-| Browser transcription | Local processing when the file, device, and runtime are supported; an initial online model/runtime download is needed. |
+| Browser transcription | Transcribe on your device when the file and browser are supported; initial setup requires internet access. |
 | Account saving | Enabled for production with explicit per-browser consent; previews remain disabled. |
-| Desktop Helper | Disabled in public and preview builds. Source-development-only code is not an installable public product. |
+| Desktop Helper | Unavailable in the public release. |
 | YouTube/link import | Unavailable in the public release. Import a local media file you are entitled to process. |
 | Long or memory-risk recordings | Preserve local source and use source-download/backup recovery when transcription is unavailable. |
-| Automatic speaker diarization | Not a shipped Helper capability; manual speaker labels do not establish automatic diarization. |
+| Automatic speaker diarization | Unavailable; you can add speaker labels manually. |
 
-Mobile browsers can preserve recordings locally even when transcription cannot finish. **Share backup** opens the Export tools for recovery or a later desktop import. Do not install or probe a localhost Helper on a phone.
+Mobile browsers can preserve recordings locally even when transcription cannot finish. **Share backup** opens the Export tools for recovery or a later desktop import.
 
 Browser-provided live dictation is provisional and can behave differently from the final local browser transcription. It is not proof that all speech-recognition activity stays on the device.
 
@@ -39,4 +39,4 @@ Supported import extensions include `.mp3`, `.mp4`, `.m4a`, `.wav`, `.mov`, `.og
 
 Transcript exports include `.txt`, `.md`, `.srt`, and `.vtt`. Recording backups use `.transcribble.tar`. A backup can contain source media only when that media is still readable; a transcript-only recovery cannot provide missing playback audio.
 
-See [setup and access](setup.md), [FAQ](faq.md), and [security and privacy](security-and-privacy.md). These are user guides, not fresh deployment-health or data-durability certifications.
+See [setup and access](setup.md), [FAQ](faq.md), and [security and privacy](security-and-privacy.md).

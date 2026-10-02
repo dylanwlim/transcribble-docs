@@ -2,7 +2,7 @@
 
 ## Before starting
 
-Use a current browser with available local storage and open [Transcribble](https://transcribble.dylanwlim.com). Workspace access requires a DWL Account. The first browser-transcription setup needs internet access to download its model and media runtime; the account flow also uses online services.
+Use a current browser with available local storage and open [Transcribble](https://transcribble.dylanwlim.com). Workspace access requires a DWL Account. The first browser-transcription setup needs internet access to complete the initial setup; the account flow also uses online services.
 
 ## First-use checks
 
@@ -14,6 +14,6 @@ Use a current browser with available local storage and open [Transcribble](https
 
 ## What not to install
 
-The public Desktop Helper is disabled. Public and preview builds do not offer its setup or probe localhost. YouTube/link import is also unavailable; import a local audio/video file you are entitled to process. No OpenAI API key or paid hosted transcription service is required for the browser workflow.
+Desktop Helper and YouTube/link import are unavailable in the public release. Import a local audio/video file you are entitled to process instead. No separate transcription subscription or API key is required.
 
 For unsupported or long recordings, preserve the source and use Export for source download or a recording backup. The [product guide](product-guide.md) documents limits, supported media, and cross-device saving. [FAQ](faq.md) covers local versus account copies.

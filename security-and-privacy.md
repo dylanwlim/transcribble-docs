@@ -2,11 +2,11 @@
 
 Audio, transcripts, titles, notes, and speaker information can identify people or contain confidential material. Process recordings only when you have the right to do so and keep sensitive examples out of public reports.
 
-## Local processing is not the same as never using a server
+## Processing and browser storage
 
-Final browser transcription uses a local browser worker after the necessary model/runtime download, when supported. Account sign-in and optional account saving use online services. Provisional browser live dictation follows the browser's speech-recognition implementation and is not promised to be fully local or offline.
+Final browser transcription runs on your device when supported; initial setup requires internet access. Account sign-in and optional account saving use online services. Live dictation is provisional and may use online speech recognition provided by your browser.
 
-The account-scoped IndexedDB/OPFS library belongs to the current browser profile. Browser storage can be cleared, become unavailable, or run out of space. Signing in does not create an automatic cloud backup of every recording.
+Local recordings belong to your account in the current browser profile. Browser storage can be cleared, become unavailable, or run out of space. Signing in does not create an automatic cloud backup of every recording.
 
 ## Optional account saving
 
@@ -16,7 +16,7 @@ A paused or pending save is not a completed save. Preserve important work with a
 
 ## Disabled public features
 
-Desktop Helper and YouTube/link import are disabled in public releases. Do not follow old Helper setup directions or install a purported public Helper package. Public/preview builds do not probe localhost while that gate is off. Source-development support is not public distribution approval.
+Desktop Helper and YouTube/link import are disabled in public releases. Do not follow old Helper setup directions or install a purported public Helper package.
 
 ## Reporting a concern
 

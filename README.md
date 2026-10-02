@@ -16,7 +16,7 @@ A guide to Transcribble, a DWL Account-backed local-first voice workspace for re
 - [Setup and access](setup.md)
 - [FAQ](faq.md)
 - [Security and privacy](security-and-privacy.md)
-- [Roadmap](roadmap.md)
+- [Product availability](roadmap.md)
 - [Guide changelog](changelog.md)
 
 ## What You Can Do
@@ -30,10 +30,6 @@ A guide to Transcribble, a DWL Account-backed local-first voice workspace for re
 ## Who It Helps
 
 People recording, organizing, reviewing, and exporting spoken material, with local source retention and optional account saving.
-
-## Documentation scope
-
-`product-guide.md` is the canonical product/workflow guide. `setup.md` covers access requirements; `how-it-works.md` is a compatibility pointer, not another maintained guide. The changelog records guide revisions, not automatic proof of a new deployment. Screenshots are illustrative captures and can lag interface changes.
 
 ## Get Help
 

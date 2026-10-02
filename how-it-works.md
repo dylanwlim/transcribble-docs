@@ -1,5 +1,5 @@
 # How It Works
 
-The workflow and product explanation for Transcribble now live in the [product guide](product-guide.md).
+Record or import supported media, review the transcript alongside the recording, and export the text or captions you need.
 
-This page is retained for existing links. Update the product guide rather than maintaining a second copy here. For account or browser requirements, use [setup and access](setup.md).
+See the [product guide](product-guide.md) for the full workflow and [setup and access](setup.md) for browser and account requirements.

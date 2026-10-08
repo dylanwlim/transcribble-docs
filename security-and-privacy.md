@@ -4,7 +4,7 @@
 
 Signing in does not automatically upload your recordings. Optional account saving asks for your permission in each browser. Use the saving status and pause controls to review your choice.
 
-Live dictation may use your browser's online speech-recognition service. Check its privacy settings before using it for sensitive material.
+Live dictation may send your speech for processing. For sensitive audio, use recording or file import instead.
 
 ## Protect important work
 

@@ -63,7 +63,25 @@ jobs:
             exit 1
           fi
 
-          if grep -RInE --include='*.md' '(AGENTS[.]md|docs-public|intentionally omitted|public docs mirror|source-boundary|maintenance checklist)' .; then
-            echo "::error::Docs contain non-reader-facing maintenance wording."
+          if grep -RInE --include='*.md' '(gh[pousr]_[A-Za-z0-9_]{20,}|github_pat_[A-Za-z0-9_]{20,}|-----BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY-----|DATABASE_URL[[:space:]]*=|[A-Z][A-Z0-9_]*(TOKEN|SECRET|PRIVATE_KEY)[[:space:]]*=)' .; then
+            echo "::error::A document may contain a credential."
             exit 1
           fi
+
+          python3 - <<'PYTHON'
+          import re
+          from pathlib import Path
+          from urllib.parse import unquote, urlsplit
+
+          root = Path.cwd()
+          errors = []
+          for document in root.glob("*.md"):
+              for target in re.findall(r'!?\[[^\]]*\]\(([^)\s]+)(?:\s+"[^\"]*")?\)', document.read_text()):
+                  if urlsplit(target).scheme or target.startswith("#"):
+                      continue
+                  destination = (document.parent / unquote(target.split("#")[0])).resolve()
+                  if not destination.is_relative_to(root) or not destination.is_file():
+                      errors.append(f"{document.name}: broken link to {target}")
+          if errors:
+              raise SystemExit("\n".join(errors))
+          PYTHON

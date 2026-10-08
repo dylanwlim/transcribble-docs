@@ -18,7 +18,7 @@ jobs:
   docs-check:
     name: Docs Check
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
       - name: Check out repository
@@ -32,12 +32,9 @@ jobs:
           required=(
             README.md
             product-guide.md
-            how-it-works.md
             setup.md
             faq.md
             security-and-privacy.md
-            roadmap.md
-            changelog.md
             assets/homepage.png
           )
 
@@ -52,7 +49,7 @@ jobs:
             case "$file" in
               ./.git/*|./.github/*)
                 ;;
-              ./README.md|./product-guide.md|./how-it-works.md|./setup.md|./faq.md|./security-and-privacy.md|./roadmap.md|./changelog.md|./assets/homepage.png)
+              ./README.md|./product-guide.md|./setup.md|./faq.md|./security-and-privacy.md|./assets/homepage.png)
                 ;;
               *)
                 echo "::error::Unexpected public docs file: ${file#./}"

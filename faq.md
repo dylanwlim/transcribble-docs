@@ -1,33 +1,35 @@
-# FAQ
+# Help and FAQ
 
-## Do I need a DWL Account?
+## Do I need an account?
 
-Yes, workspace access requires DWL Accounts. The public homepage is separate from the signed-in workspace.
+Yes. Sign in with your DWL Account to open the workspace.
 
-## Does signing in automatically upload my recordings?
+## Does signing in upload my recordings?
 
-No. The account-scoped browser library is local. Production account saving requires explicit upload consent in each browser. Preview account saving remains disabled.
+No. Account saving requires your permission in each browser. Check the saving status to see which items are available on another device.
 
 ## Why is a recording missing on my other device?
 
-It may exist only in the first browser, exceed account-saving limits, or still have a pending/failed upload. Check the original browser's saving state and whether source media is readable. A signed-in account or a saved transcript is not proof that every audio file uploaded. Use a recording backup when needed.
+Open the original browser and check its saving status. The recording may still be local, waiting to upload, or too large for account saving. If the original plays, export a recording backup before clearing browser data or deleting anything.
 
-## Why does a long recording stay saved without a finished transcript?
+## Why did transcription stop or fail?
 
-Browser transcription is deliberately bounded by file, duration, memory, and runtime support. Unsupported work stays available for source-download/backup recovery when the local source is readable. Repeatedly forcing an unsafe browser job is not a supported workaround.
+Check the message shown for the file and your device. Some recordings are too long, too large, or unsupported. Preserve the original with **Export**, then try a supported device or a shorter copy of the file.
 
-## Where do I install Desktop Helper or import a YouTube link?
+## Can I recover audio from a transcript?
 
-Those features are disabled in the public release. Import a local media file you are entitled to process instead.
+No. A transcript contains text. To recover playback, you need the original audio or a recording backup that includes it.
 
-## Is live dictation the final local transcript?
+## Can I import a YouTube link or install Desktop Helper?
 
-No. Live dictation is provisional and may use online speech recognition provided by your browser. Review the finished transcript before relying on it.
+These options are unavailable. Import a local audio or video file that you have permission to use.
 
-## Can a transcript-only export recover missing audio?
+## Is live dictation ready to share?
 
-No. A recording backup includes media only when that media is readable during export. Keep an independently verified backup before deleting the only source or clearing browser storage.
+Treat it as a draft. Listen to the recording and review the finished transcript first.
 
-## What should I send with a bug report?
+## How do I get help?
 
-Use a non-sensitive sample, the affected action, browser, and a redacted error description. Do not send real confidential recordings, transcripts, credentials, or identifying screenshots. Email [dylan@wlim.work](mailto:dylan@wlim.work). See [security and privacy](security-and-privacy.md).
+Email [dylan@wlim.work](mailto:dylan@wlim.work) with your browser, the action you tried, and the error message. Use a short, non-sensitive example and remove personal information from screenshots. Keep confidential recordings, transcripts, and account details out of your report.
+
+[Quick start](setup.md) · [User guide](product-guide.md) · [Back to Transcribble](README.md)

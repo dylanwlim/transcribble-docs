@@ -1,19 +1,13 @@
-# Setup And Access
+# Quick start
 
-## Before starting
+1. Open [Transcribble](https://transcribble.dylanwlim.com) in a current browser and sign in with your DWL Account.
+2. In **Settings > Help & troubleshooting**, choose **Test Transcribble on this device** to try the sample.
+3. Choose **New > Record audio** or **New > Import audio**. Allow microphone access if you are recording.
+4. Play the recording, review the transcript, and correct any mistakes.
+5. Open **Export** to save your text, captions, or a recording backup.
 
-Use a current browser with available local storage and open [Transcribble](https://transcribble.dylanwlim.com). Workspace access requires a DWL Account. The first browser-transcription setup needs internet access to complete the initial setup; the account flow also uses online services.
+Keep an internet connection available for sign-in and initial setup. You also need enough free space on your device. Imports do not require microphone permission.
 
-## First-use checks
+To use account saving, read and accept its upload prompt in each browser, then check that saving has finished before switching devices.
 
-1. Enter `/workspace` and complete the DWL Accounts handoff.
-2. Keep sufficient browser/device storage available. Use microphone permission only when recording; importing a local file does not require microphone access.
-3. In **Settings > Help & troubleshooting**, use **Test Transcribble on this device** for the bundled sample and playback/export check.
-4. Play the sample, edit a transcript line, and export it before relying on the browser for important recordings.
-5. Enable optional account saving only after reading the upload consent. Consent is per browser; check the saving status and keep a separate backup of important recordings.
-
-## What not to install
-
-Desktop Helper and YouTube/link import are unavailable in the public release. Import a local audio/video file you are entitled to process instead. No separate transcription subscription or API key is required.
-
-For unsupported or long recordings, preserve the source and use Export for source download or a recording backup. The [product guide](product-guide.md) documents limits, supported media, and cross-device saving. [FAQ](faq.md) covers local versus account copies.
+[User guide](product-guide.md) · [Help and FAQ](faq.md) · [Back to Transcribble](README.md)

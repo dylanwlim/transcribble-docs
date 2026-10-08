@@ -1,25 +1,21 @@
-# Security And Privacy
+# Privacy and your recordings
 
-Audio, transcripts, titles, notes, and speaker information can identify people or contain confidential material. Process recordings only when you have the right to do so and keep sensitive examples out of public reports.
+## Choose what to save
 
-## Processing and browser storage
+Signing in does not automatically upload your recordings. Optional account saving asks for your permission in each browser. Use the saving status and pause controls to review your choice.
 
-Final browser transcription runs on your device when supported; initial setup requires internet access. Account sign-in and optional account saving use online services. Live dictation is provisional and may use online speech recognition provided by your browser.
+Live dictation may use your browser's online speech-recognition service. Check its privacy settings before using it for sensitive material.
 
-Local recordings belong to your account in the current browser profile. Browser storage can be cleared, become unavailable, or run out of space. Signing in does not create an automatic cloud backup of every recording.
+## Protect important work
 
-## Optional account saving
+Browser data can be cleared, and devices can be lost or run out of space. Keep a separate recording backup and check that it contains playable media before removing the original.
 
-Production account saving uploads private copies only after explicit consent in that browser. Use the visible saving state, pause, and refresh controls, and check whether a source fits the account limits. A file that remains local-only is not recoverable from another device merely because you signed into the same account. Preview account saving remains disabled.
+A local-only recording will not appear on another device. Pending or failed saves need attention, and a transcript alone cannot restore missing audio.
 
-A paused or pending save is not a completed save. Preserve important work with a separately exported recording backup and confirm the source is readable before clearing local storage. Deleted or missing source media cannot be recovered from a transcript-only export.
+## Share carefully
 
-## Disabled public features
+Use recordings only when you have permission. Review transcripts before sharing, and remove anything the recipient should not receive.
 
-Desktop Helper and YouTube/link import are disabled in public releases. Do not follow old Helper setup directions or install a purported public Helper package.
+For help, email [dylan@wlim.work](mailto:dylan@wlim.work) with a short description and a non-sensitive example. Do not include confidential recordings, transcripts, passwords, or personal account information.
 
-## Reporting a concern
-
-Email [dylan@wlim.work](mailto:dylan@wlim.work) with a redacted description, affected page, browser, and approximate time. Prefer the sanitized support report and a non-sensitive sample. Do not attach real recordings, transcripts, filenames, notes, local paths, account tokens, cookies, or credentials unless a private handling process has been agreed first.
-
-The [product guide](product-guide.md) and [FAQ](faq.md) explain storage, exports, and recovery limits.
+[User guide](product-guide.md) · [Help and FAQ](faq.md) · [Back to Transcribble](README.md)

@@ -1,36 +1,30 @@
 # Transcribble
 
+Record, transcribe, and find the moment you need. Keep your audio, transcript, and notes together.
+
+**[Open Transcribble](https://transcribble.dylanwlim.com)** · [Quick start](setup.md) · [User guide](product-guide.md) · [Help](faq.md)
+
 <p align="center">
-  <a href="https://transcribble.dylanwlim.com"><img src="assets/homepage.png" alt="Transcribble homepage screenshot" width="900"></a>
+  <a href="https://transcribble.dylanwlim.com"><img src="assets/homepage.png" alt="Transcribble with a recording, transcript, and notes" width="900"></a>
 </p>
 
-A guide to Transcribble, a DWL Account-backed local-first voice workspace for recording/importing audio and video, browser transcription, review, export, and optional private account saving.
+## What you can do
 
-**Live site:** [https://transcribble.dylanwlim.com](https://transcribble.dylanwlim.com)
+- Record audio or import an audio or video file.
+- Listen, review the transcript, and add notes.
+- Organize recordings into folders.
+- Export text, captions, or a recording backup.
+- Enable optional account saving to use saved work on another device.
 
-**Access:** DWL Accounts is required for the workspace. Production account saving requires explicit per-browser consent. Public Desktop Helper and YouTube/link import are disabled.
+Sign in with your DWL Account to open the workspace. Review transcripts for accuracy and keep a backup of important recordings.
 
-## Start Here
+## Guides and support
 
-- [Product guide and workflow](product-guide.md)
-- [Setup and access](setup.md)
-- [FAQ](faq.md)
-- [Security and privacy](security-and-privacy.md)
-- [Product availability](roadmap.md)
-- [Guide changelog](changelog.md)
+| Guide | Find what you need |
+| --- | --- |
+| [Quick start](setup.md) | Open the workspace and make your first recording. |
+| [User guide](product-guide.md) | Record, edit, organize, save, and export. |
+| [Help and FAQ](faq.md) | Resolve missing recordings and transcription problems. |
+| [Privacy and your recordings](security-and-privacy.md) | Choose what to save and protect your work. |
 
-## What You Can Do
-
-- Record or import supported audio/video
-- Review and edit browser-generated transcripts
-- Organize the account-scoped local library
-- Export transcripts, readable sources, and recording backups
-- Opt into bounded private account saving when available
-
-## Who It Helps
-
-People recording, organizing, reviewing, and exporting spoken material, with local source retention and optional account saving.
-
-## Get Help
-
-For corrections or questions, email [dylan@wlim.work](mailto:dylan@wlim.work).
+Questions or feedback? [Contact Dylan](mailto:dylan@wlim.work).

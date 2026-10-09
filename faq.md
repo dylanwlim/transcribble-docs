@@ -4,6 +4,10 @@
 
 Yes. Sign in with your DWL Account to open the workspace.
 
+## Why does the homepage recording not appear in my library?
+
+The homepage shows an illustrative transcript and notes, not a saved recording. Record or import your own audio in the workspace.
+
 ## Does signing in upload my recordings?
 
 No. Account saving requires your permission in each browser. Check the saving status to see which items are available on another device.

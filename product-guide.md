@@ -1,5 +1,9 @@
 # User guide
 
+## Open the workspace
+
+Choose **Open workspace** on the homepage, or use its **Record audio**, **Import files**, **Transcripts**, and **Your notes** shortcuts. Sign in with your DWL Account when prompted. The homepage workspace image is an illustration; it does not add a recording to your library.
+
 ## Record or import
 
 Open the workspace and choose **New > Record audio** or **New > Import audio**. Review any file or device limits shown before starting. Microphone recording requires your permission.
@@ -10,9 +14,15 @@ Supported imports include MP3, MP4, M4A, WAV, MOV, OGG, WebM, FLAC, and AAC. Sup
 
 Listen alongside the transcript and correct words as needed. Add notes, use folders to organize recordings, and open the recording's Details or Export panel when needed. You can add speaker labels manually; automatic speaker identification is unavailable.
 
-Live dictation is a draft. Review the finished transcript before quoting, sharing, or relying on it.
+Use **Ready transcripts** to find recordings ready for review. **Your notes** opens the notes panel for an available transcript; if you have none yet, record or import audio first.
+
+Transcription can show draft text while processing. Wait for it to finish, then review the result. Live dictation is a draft. Review the finished transcript before quoting, sharing, or relying on it.
 
 If transcription cannot finish, keep the original recording. Use **Export** to download the source or create a backup, and try a supported device when convenient.
+
+## Appearance
+
+Transcribble follows your device's light or dark appearance by default. Your saved appearance choice also applies to the homepage.
 
 ## Save across devices
 

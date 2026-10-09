@@ -16,7 +16,7 @@ Record, transcribe, and find the moment you need. Keep your audio, transcript, a
 - Export text, captions, or a recording backup.
 - Enable optional account saving to use saved work on another device.
 
-Sign in with your DWL Account to open the workspace. Review transcripts for accuracy and keep a backup of important recordings.
+Choose **Open workspace**, or start with the homepage's recording, import, transcript, or notes shortcuts. Sign in with your DWL Account to open the workspace. The homepage recording is an illustration, not a saved project. Review transcripts for accuracy and keep a backup of important recordings.
 
 ## Guides and support
 

@@ -2,11 +2,11 @@
 
 ## Open the workspace
 
-Choose **Open workspace** on the homepage, or use its **Record audio**, **Import files**, **Transcripts**, and **Your notes** shortcuts. Sign in with your DWL Account when prompted. The homepage workspace image is an illustration; it does not add a recording to your library.
+Choose **Open workspace** on the homepage, or use its **Record audio**, **Import files**, **Transcripts**, and **Your notes** shortcuts. Sign in with your DWL Account when prompted. The homepage workspace preview is an illustration; it does not add a recording to your library.
 
 ## Record or import
 
-Open the workspace and choose **New > Record audio** or **New > Import audio**. Review any file or device limits shown before starting. Microphone recording requires your permission.
+Choose **Record audio** or **Import audio** in the workspace action cards. You can also use **Record** or **Import** above your library. Review any file or device limits shown before starting. Microphone recording requires your permission.
 
 Supported imports include MP3, MP4, M4A, WAV, MOV, OGG, WebM, FLAC, and AAC. Support also depends on the recording's length, size, format, and your device. Desktop Helper and YouTube or link import are unavailable; use a media file you have permission to process.
 
@@ -14,7 +14,7 @@ Supported imports include MP3, MP4, M4A, WAV, MOV, OGG, WebM, FLAC, and AAC. Sup
 
 Listen alongside the transcript and correct words as needed. Add notes, use folders to organize recordings, and open the recording's Details or Export panel when needed. You can add speaker labels manually; automatic speaker identification is unavailable.
 
-Use **Ready transcripts** to find recordings ready for review. **Your notes** opens the notes panel for an available transcript; if you have none yet, record or import audio first.
+Use the top navigation to switch between **Library**, **Transcripts**, and **Notes**. **Transcripts** finds recordings ready for review. **Notes** opens the notes panel for an available transcript; if you have none yet, record or import audio first. Open **Folders** to organize your library. Your account menu contains settings and account actions.
 
 Transcription can show draft text while processing. Wait for it to finish, then review the result. Live dictation is a draft. Review the finished transcript before quoting, sharing, or relying on it.
 

@@ -1,8 +1,8 @@
 # Quick start
 
 1. Open [Transcribble](https://transcribble.dylanwlim.com) in a current browser, choose **Open workspace**, and sign in with your DWL Account.
-2. In **Settings > Help & troubleshooting**, choose **Test Transcribble on this device** to try the sample.
-3. Choose **New > Record audio** or **New > Import audio**. Allow microphone access if you are recording.
+2. Open your account menu, then **Settings > Help & troubleshooting**, choose **Test Transcribble on this device** to try the sample.
+3. Choose the **Record audio** or **Import audio** card in your workspace. Allow microphone access if you are recording.
 4. Play the recording, review the transcript, and correct any mistakes.
 5. Open **Export** to save your text, captions, or a recording backup.
 
